@@ -88,7 +88,7 @@ const Blog = () => {
           ))}
         </ul>
         <div>
-          <div className="pt-8 fixed bottom-16 left-0 right-0">
+          <div className="pt-8 fixed bottom-15 left-0 right-0">
             {totalPages > 1 && <Pagination page={page} total={totalPages} />}
           </div>
         </div>

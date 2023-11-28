@@ -6,6 +6,7 @@ export default {
   theme: {
     extend: {
       spacing: {
+        '15': '3.99rem',
         '85': '20rem',
         '88': '22rem',
         '92': '23rem',
