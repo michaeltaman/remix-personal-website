@@ -67,7 +67,7 @@ export async function loader({ request: req }: { request: Request }) {
                         </h1>
                     </div>
 
-                    <div className="grid gap-2 sm:grid-cols-2 md:gap-2 lg:grid-cols-3 lg:gap-8 pt-8 pb-8 ">
+                    <div className="grid gap-2 sm:grid-cols-2 md:gap-2 lg:grid-cols-3 lg:gap-8 pt-5 pb-5">
                         {projects.map((project, index) => (
                             <Suspense fallback={<div>Loading...</div>} key={index}>
                                 <article key={index} className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm dark:border-gray-800 dark:bg-gray-800 dark:shadow-gray-700/25 ">
